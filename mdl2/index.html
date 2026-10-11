@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mini Projek Profil Mahasiswa</title>
+    <!-- Menghubungkan ke file CSS eksternal sesuai Modul 2 -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navigasi Menggunakan Anchor Internal (Materi Modul 1 & Modul 2) -->
+    <div id="header">
+        <h1>Portofolio Mahasiswa</h1>
+        <p>
+            <a href="#profil">Profil</a> | 
+            <a href="#tabel-info">Jadwal Kuliah</a> | 
+            <a href="#form-input">Form Input Data</a>
+        </p>
+    </div>
+
+    <!-- Bagian Konten Utama -->
+    <div id="content">
+        
+        <!-- Bagian Profil -->
+        <h2 id="profil">Profil Saya</h2>
+        <p>Halo! Selamat datang di halaman web profil sederhana saya yang dibuat menggunakan struktur HTML dasar dan gaya CSS eksternal.</p>
+
+        <!-- Bagian Tabel Informasi (Sesuai Latihan Modul 1 & Referensi Modul 2) -->
+        <h2 id="tabel-info">Jadwal Kuliah</h2>
+        <table border="1">
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>NIM</th>
+                <th>Jurusan</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Nazriel</td>
+                <td>607022500026</td>
+                <td>Teknik Komputer</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Budi</td>
+                <td>607022500027</td>
+                <td>Teknik Komputer</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Siti</td>
+                <td>607022500028</td>
+                <td>Teknik Komputer</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <!-- Bagian Form Input Data (Sesuai Latihan 2 Modul 1) -->
+        <h2 id="form-input">Form Input Data Mahasiswa</h2>
+        <form action="#">
+            Nama: <input type="text" name="nama"><br><br>
+            NIM: <input type="text" name="nim"><br><br>
+            Jurusan:
+            <select name="jurusan">
+                <option value="TI">Teknik Informatika</option>
+                <option value="SI">Sistem Informasi</option>
+                <option value="TK">Teknik Komputer</option>
+            </select><br><br>
+            Hobi:<br>
+            <input type="checkbox" name="hobi" value="Membaca"> Membaca<br>
+            <input type="checkbox" name="hobi" value="Olahraga"> Olahraga<br>
+            <input type="checkbox" name="hobi" value="Bersepeda"> Bersepeda<br><br>
+            <input type="submit" value="Kirim">
+        </form>
+
+    </div>
+
+    <!-- Footer (Sesuai Ketentuan Mini Projek Modul 2) -->
+    <div id="footer">
+        <p>&copy; 2026 Pemrograman Web - Teknik Komputer</p>
+    </div>
+
+</body>
+</html>
